@@ -7,8 +7,8 @@ services:
     labels:
       - "autoheal=true"  # 标记此容器允许被autoheal重启
     ports:
-      - "80:80"
-      - "443:443"
+      - "70:80"
+      - "543:443"
     environment:
       # 基础配置
       - DOMAIN=localhost
